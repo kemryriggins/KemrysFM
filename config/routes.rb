@@ -1,0 +1,3 @@
+# config/routes.rb
+# ...
+resources :songs, only: %i[new create index]
