@@ -3,10 +3,10 @@ require "shrine/storage/file_system"
 require "shrine/storage/s3"
 
 s3_options = {
-    access_key_id:      ENV['S3_KEY'],
-    secret_access_key:  ENV['S3_SECRET'],
-    region:             ENV['S3_REGION'],
-    bucket:             ENV['S3_BUCKET']
+    access_key_id:      ENV['AKIAJ324WGAUXUPBG5EA'],
+    secret_access_key:  ENV['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'],
+    region:             ENV['us-east-2'],
+    bucket:             ENV['kemryfm']
 }
 
 Shrine.storages = {

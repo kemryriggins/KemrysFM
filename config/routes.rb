@@ -1,3 +1,4 @@
-# config/routes.rb
-# ...
-resources :songs, only: %i[new create index]
+Rails.application.routes.draw do
+  resources :songs, only: %i[new create index]
+
+end
